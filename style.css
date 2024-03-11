@@ -99,9 +99,9 @@ form label, legend{
     margin: 20px 0;
 }
 
-p{
+/* p{
     color: red;
-}
+} */
 form p{
     color: blue;
 }
@@ -134,4 +134,26 @@ td, th{
     border: 1px solid black;
     padding: 8px 15px;
 
+}
+
+/*CSS para el index*/
+.banner{
+    width: 100%;
+}
+.tituloPrincipal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.imagenDiferenciales{
+    width: 60%;
 }
