@@ -81,10 +81,6 @@ footer{
 }
 
 /*Cotacto.html*/
-main{
-    width: 940px;
-    margin: 0 auto;
-}
 form{
     margin: 40px 0;
 }
@@ -144,6 +140,12 @@ td, th{
 .banner{
     width: 100%;
 }
+.principal{
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
 .tituloPrincipal{
     text-align: center;
     font-size: 2em;
@@ -166,10 +168,19 @@ td, th{
 }
 .mapa{
     padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
 }
 .mapa p{
     margin: 0 0 2em;
     text-align: center;
+}
+.mapaContenido{
+    width: 940px;
+    margin: 0 auto;
+}
+.diferenciales{
+    padding: 3em 0;
+    background: #888888;
 }
 .contenidoDiferenciales{
     width: 640px;
